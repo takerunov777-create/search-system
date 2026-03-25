@@ -1,0 +1,23 @@
+# 参照リポジトリ（サブモジュールではなくローカルクローン）
+storm/
+gpt-researcher/
+open_deep_research/
+everything-claude-code/
+
+# 調査データ・生成ファイル（機密情報を含む可能性）
+data/
+report/
+track-record/
+prompt.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
